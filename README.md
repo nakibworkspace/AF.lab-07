@@ -113,7 +113,7 @@ mkdir -p ./dags ./logs ./plugins ./config
 
 - `Dockerfile`
     
-    ![image-02.png](AF7%20Scheduling%20with%20Apache%20Airflow%20Scheduled%20Model%20210fd9ab443a46c9aa85872ff23945c6/image-02.png)
+    ![image-02.png](images/image-02.png)
     
 - `requirements.txt file`
     
@@ -379,13 +379,13 @@ with DAG(
 docker-compose up —build
 ```
 
-![image-03.png](AF7%20Scheduling%20with%20Apache%20Airflow%20Scheduled%20Model%20210fd9ab443a46c9aa85872ff23945c6/image-03.png)
+![image-03.png](images/image-03.png)
 
 ```markup
 docker ps
 ```
 
-![image-04.png](AF7%20Scheduling%20with%20Apache%20Airflow%20Scheduled%20Model%20210fd9ab443a46c9aa85872ff23945c6/image-04.png)
+![image-04.png](images/image-04.png)
 
 ### Step 05: Expose the Airflow UI using Load Balancer.
 
@@ -395,26 +395,26 @@ docker ps
     ip addr show eth0
     ```
     
-    ![image-05.png](AF7%20Scheduling%20with%20Apache%20Airflow%20Scheduled%20Model%20210fd9ab443a46c9aa85872ff23945c6/image-05.png)
+    ![image-05.png](images/image-05.png)
     
 
 or by using terminal
 
-![image-06.png](AF7%20Scheduling%20with%20Apache%20Airflow%20Scheduled%20Model%20210fd9ab443a46c9aa85872ff23945c6/image-06.png)
+![image-06.png](images/image-06.png)
 
 - Go to the load balancer.
     
-    ![image-07.png](AF7%20Scheduling%20with%20Apache%20Airflow%20Scheduled%20Model%20210fd9ab443a46c9aa85872ff23945c6/image-07.png)
+    ![image-07.png](images/image-07.png)
     
 
 - Create the Load balancer.
     
-    ![image-08.png](AF7%20Scheduling%20with%20Apache%20Airflow%20Scheduled%20Model%20210fd9ab443a46c9aa85872ff23945c6/image-08.png)
+    ![image-08.png](images/image-08.png)
     
 
 Load Balancer created
 
-![image-10.png](AF7%20Scheduling%20with%20Apache%20Airflow%20Scheduled%20Model%20210fd9ab443a46c9aa85872ff23945c6/image-10.png)
+![image-10.png](images/image-10.png)
 
 And launch it.
 
@@ -422,15 +422,15 @@ And launch it.
 
 DAG created.
 
-![image-11.png](AF7%20Scheduling%20with%20Apache%20Airflow%20Scheduled%20Model%20210fd9ab443a46c9aa85872ff23945c6/image-11.png)
+![image-11.png](images/image-11.png)
 
 DAG triggered successfully.
 
-![image-12.png](AF7%20Scheduling%20with%20Apache%20Airflow%20Scheduled%20Model%20210fd9ab443a46c9aa85872ff23945c6/image-12.png)
+![image-12.png](images/image-12.png)
 
 Scheduled tasks.
 
-![image-13.png](AF7%20Scheduling%20with%20Apache%20Airflow%20Scheduled%20Model%20210fd9ab443a46c9aa85872ff23945c6/image-13.png)
+![image-13.png](images/image-13.png)
 
 # Conclusion:
 
