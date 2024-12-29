@@ -17,7 +17,7 @@ In this lab, we are going to retrain a machine learning model over the decision 
 
 A ML model is basically created and trained using some specific dataset offline. After doing all the lifecycle of Data Science, finally it gives some better accuracy and then the model is deployed. But the usual scenario of the machine learning projects is that it receives the live data continuously. When the new datas are coming the model is in need of training with respect to the new datas continuously.
 
-![model_retraining-2.svg](AF7%20Scheduling%20with%20Apache%20Airflow%20Scheduled%20Model%20210fd9ab443a46c9aa85872ff23945c6/model_retraining-2.svg)
+![model_retraining-2.svg](images/model_retraining-2.svg)
 
 ### Step 01 : Open VS Code and create the files that needed & Create a virtual environment.
 
@@ -66,7 +66,7 @@ curl -LfO '[https://airflow.apache.org/docs/apache-airflow/2.10.3/docker-compose
 
 - Will create a yaml file automatically to your directory and get this output.
     
-    ![image-01.png](AF7%20Scheduling%20with%20Apache%20Airflow%20Scheduled%20Model%20210fd9ab443a46c9aa85872ff23945c6/image-01.png)
+    ![image-01.png](images/image-01.png)
     
 
 or, can use this as docker-compose file.
